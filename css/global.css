@@ -2,6 +2,7 @@
   --bg-primary: #f9e0ae;
   --cor-button: #c24914;
   --cor-button2: #682c0e;
+  --cor-button3: #fc8621;
   --cor-title2: #00000075;
 }
 
@@ -46,6 +47,7 @@ body {
   line-height: normal;
   pointer-events: none;
   margin-right: 13.65rem;
+  white-space: nowrap;
 }
 
 .drop-down {
@@ -59,11 +61,10 @@ body {
   background-color: #c24814e3;
   border-radius: 0.8rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  white-space: nowrap;
 }
 .drop-down li {
   cursor: pointer;
-  /* white-space: nowrap; */
+  white-space: nowrap;
 }
 
 .drop:hover .drop-down {
@@ -80,8 +81,8 @@ body {
 }
 
 .btn-nav {
-  width: 150px;
-  height: 39px;
+  width: 9.375rem;
+  height: 2.4375rem;
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -124,17 +125,14 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.container-right {
-  margin-top: 180x;
-  width: 487px;
-  height: 487px;
-  background: url(../img/start\ img.png) lightgray 50% / cover no-repeat;
-  top: 0;
+.start-container-right img {
+  max-width: 100%;
+  height: auto;
 }
 
 .btn-2 {
-  width: 200px;
-  height: 44px;
+  width: 12.5rem;
+  height: 2.75rem;
   flex-shrink: 0;
   background-color: var(--cor-button2);
   color: #fff;
@@ -165,11 +163,9 @@ body {
   margin-top: 7rem;
 }
 
-.welcome-container-left {
-  width: 480px;
-  height: 379px;
-  flex-shrink: 0;
-  background: url(../img/welcome.png) lightgray 50% / cover no-repeat;
+.welcome-container-left img {
+  max-width: 100%;
+  height: auto;
 }
 
 .welcome-container-right {
@@ -216,10 +212,9 @@ body {
   margin-right: 5.6875rem;
 }
 
-.register-container-right {
-  width: 439px;
-  height: 292px;
-  background: url(../img/register.png), lightgray 50% / cover no-repeat;
+.register-container-right img {
+  max-width: 100%;
+  height: auto;
 }
 
 .subscribe {
@@ -231,7 +226,7 @@ body {
 }
 
 .subscribe-container {
-  width: 70vw;
+  width: 80vw;
   height: 8.16rem;
   background-color: var(--bg-primary);
   display: flex;
@@ -240,8 +235,8 @@ body {
 }
 
 .subscribe-container input {
-  width: 300px;
-  height: 63px;
+  width: 18.75rem;
+  height: 3.937rem;
   border: none;
   outline: none;
   color: rgba(0, 0, 0, 0.5);
@@ -253,8 +248,8 @@ body {
 }
 
 .btn-subscribe {
-  width: 300px;
-  height: 63px;
+  width: 18.75rem;
+  height: 3.937rem;
   border: none;
   background-color: var(--cor-button);
   color: #fff;
@@ -270,4 +265,69 @@ body {
   background-color: #ff5004;
   transform: scale(1.05);
   transition: 0.2s ease;
+}
+
+.community-container {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.community-container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  margin: 16.81rem;
+}
+
+.community-container-left h1 {
+  color: #000;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.community-container-left p {
+  color: var(--cor-title2);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1.35rem;
+}
+.btn-3 {
+  width: 17.0625rem;
+  height: 3.375rem;
+  flex-shrink: 0;
+  color: #fff;
+  background-color: var(--cor-button3);
+  border: none;
+  border-radius: 0.625rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 4.69rem;
+}
+
+.community-container-right img {
+  position: absolute;
+  right: 10rem;
+  margin-top: 20.13rem;
+}
+
+/* uteis*/
+.img-responsive {
+  max-width: 100%;
+  height: auto;
 }
