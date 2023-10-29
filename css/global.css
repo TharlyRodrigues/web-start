@@ -271,17 +271,18 @@ body {
   width: 100vw;
   height: fit-content;
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
   position: relative;
 }
 
 .community-container-left {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  position: absolute;
+  margin-top: 10rem;
+  margin-left: 12rem;
   z-index: 1;
-  margin: 16.81rem;
 }
 
 .community-container-left h1 {
@@ -322,8 +323,7 @@ body {
 
 .community-container-right img {
   position: absolute;
-  right: 10rem;
-  margin-top: 20.13rem;
+  right: 14rem;
 }
 
 /* uteis*/
