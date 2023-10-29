@@ -2,6 +2,7 @@
   --bg-primary: #f9e0ae;
   --cor-button: #c24914;
   --cor-button2: #682c0e;
+  --cor-title2: #00000075;
 }
 
 body {
@@ -58,10 +59,11 @@ body {
   background-color: #c24814e3;
   border-radius: 0.8rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  white-space: nowrap;
 }
 .drop-down li {
   cursor: pointer;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .drop:hover .drop-down {
