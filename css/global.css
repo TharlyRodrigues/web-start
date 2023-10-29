@@ -277,6 +277,7 @@ body {
 
 .community-container-left {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -321,9 +322,17 @@ body {
   margin-top: 4.69rem;
 }
 
+.btn-3:hover {
+  background-color: #ff9335;
+  transform: scale(1.05);
+  transition: 0.2s ease;
+  color: #fff;
+}
+
 .community-container-right img {
   position: absolute;
   right: 14rem;
+  margin-top: -1rem;
 }
 
 /* uteis*/
